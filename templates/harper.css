@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #212121;
+}
+
+.container {
+  margin: 20px auto;
+  width: 640px;
+  height: 480;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 640px;
+  height: 480;
+  overflow: hidden;
+}
+
+.video-container video {
+  min-width: 640px;
+  min-height: 480;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
